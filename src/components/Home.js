@@ -22,7 +22,8 @@ const Home = () => (
     <Grid />
     <MovieThumb />
     <Spinner />
-    <LoadMoreBtn />  
+    <LoadMoreBtn /> 
+     
   </>
 )
 
