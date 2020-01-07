@@ -67,7 +67,7 @@ const Home = () => {
         ))}      
       </Grid>      
       {loading && <Spinner />}
-      {currentPage < totalPages && (
+      {currentPage < totalPages && !loading && (
         <LoadMoreBtn text='Load More' callback={loadMoreMovies} />             
       )}
     </>
